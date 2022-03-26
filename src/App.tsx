@@ -4,6 +4,8 @@ import User from "components/User";
 import Repos from "components/Repos";
 import { useReposApi, useUserApi } from "hooks/apiHooks";
 
+import "styles/main.css";
+
 const App = () => {
   const [userName, setUserName] = React.useState<string>("papatomatoe");
 
